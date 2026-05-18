@@ -1,0 +1,28 @@
+# .gitignore
+# Dependencies
+vendor/
+node_modules/
+
+# Sensitive files
+includes/config_local.php
+.env
+.env.local
+
+# Cache files
+*.cache
+.DS_Store
+Thumbs.db
+
+# Session files
+sessions/
+tmp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Test files
+test_*.php
+add_demo_data.php

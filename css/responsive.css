@@ -1,0 +1,68 @@
+/* Responsive Design */
+
+@media (max-width: 768px) {
+    .navbar-container {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 20px;
+    }
+
+    .navbar-menu ul {
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    .container {
+        margin: 10px auto;
+        padding: 0 10px;
+    }
+
+    .dashboard-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+
+    .login-box {
+        padding: 30px 20px;
+    }
+
+    table {
+        font-size: 12px;
+    }
+
+    table th,
+    table td {
+        padding: 8px;
+    }
+
+    .table-container {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-brand a {
+        font-size: 18px;
+    }
+
+    .dashboard h1 {
+        font-size: 20px;
+    }
+
+    .form-container {
+        padding: 20px 15px;
+    }
+
+    .login-box {
+        padding: 20px 15px;
+    }
+
+    table th,
+    table td {
+        padding: 6px;
+        font-size: 11px;
+    }
+}
